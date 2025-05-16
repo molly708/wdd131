@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find all the references and sources for the images, descriptions, and reviews used on Anime Hub." />
+    <meta name="author" content="Omodunmolami Ojulari">
+    <title>Anime Hub - References</title>
+    <link rel="stylesheet" href="styles/anime.css">
+</head>
+<body>
+    <header>
+        <h1>Anime Hub</h1>
+        <nav>
+            <a href="anime.html" aria-label="Home">Home</a>
+            <a href="spotlight.html" aria-label="Spotlights">Spotlights</a>
+            <a href="community.html" aria-label="Community">Community</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="references">
+            <h2>References</h2>
+            <div class="section-buttons">
+                <button class="section-button active" data-section="images" aria-controls="images" aria-selected="true">Image Sources</button>
+                <button class="section-button" data-section="descriptions" aria-controls="descriptions" aria-selected="false">Anime Descriptions</button>
+                <button class="section-button" data-section="reviews" aria-controls="reviews" aria-selected="false">Review Sources</button>
+            </div>
+            
+            <div id="images" class="section-content active" aria-labelledby="images-tab">
+                <ul>
+                    <li><a href="https://www.crunchyroll.com" target="_blank" rel="noopener noreferrer" aria-label="Crunchyroll - Solo Leveling Promo Image">Crunchyroll - Solo Leveling Promo Image</a></li>
+                    <li><a href="https://myanimelist.net" target="_blank" rel="noopener noreferrer" aria-label="MyAnimeList - Anime Cover Art">MyAnimeList - Anime Cover Art</a></li>
+                    <li><a href="https://www.pixiv.net" target="_blank" rel="noopener noreferrer" aria-label="Pixiv - Fan Art">Pixiv - Fan Art</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anime Hub - <a href="anime.html" aria-label="Back to Home">Back to Home</a></p>
+    </footer>
+
+    <script src="scripts/references.js" defer></script>
+</body>
+</html>

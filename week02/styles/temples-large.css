@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+  /* Ensure the nav bar is always visible */
+  nav {
+      position: static;
+      display: block;
+  }
+
+  nav ul {
+      display: flex;
+      justify-content: center;
+  }
+
+  nav ul li {
+      margin: 0 15px;
+  }
+
+  #menu-toggle {
+      display: none; /* Hide the menu button on large screens */
+  }
+
+  /* Adjust the gallery layout for larger screens */
+  .gallery {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  img {
+      height: 300px; /* Larger uniform height for bigger screens */
+      object-fit: cover; /* Keeps aspect ratio and prevents distortion */
+  }
+}

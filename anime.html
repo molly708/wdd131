@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the latest anime reviews, character spotlights, upcoming releases, and community discussions. Dive into the world of anime with engaging articles, recommendations, and interactive features." />
+    <meta name="author" content="Omodunmolami Ojulari">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/anime.css">
+    <title>Anime Hub</title>
+</head>
+<body>
+    <div id="loadingScreen">
+        <div class="loading-animation">Anime Hub Loading...</div>
+    </div>
+
+    <header>
+        <h1>Otaku Den</h1>
+        <nav>
+            <a href="anime.html" aria-label="Home">Home</a>
+            <a href="spotlight.html" aria-label="Spotlights">Spotlights</a>
+            <a href="community.html" aria-label="Community">Community</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tabs">
+            <button class="tab-button active" data-tab="reviews" aria-controls="reviews">Latest Reviews</button>
+            <button class="tab-button" data-tab="releases" aria-controls="releases">Upcoming Releases</button>
+        </section>
+
+        <!-- Latest Reviews Section -->
+        <section id="reviews" class="tab-content active">
+            <h2>Featured Review: Attack on Titan - The Final Season</h2>
+            <p><strong>By: Anime Hub Review Team | Date: April 2025</strong></p>
+            
+            <h3>Attack on Titan: The Final Season - A Heart-Stopping Conclusion</h3>
+            
+            <p><strong>Plot:</strong> The stakes are higher than ever as Eren Yeager's transformation into the ultimate antagonist forces the remaining members of the Survey Corps to confront their own humanity. With the world on the brink of annihilation, the final battle between Marley and the Eldians promises to answer long-awaited questions, while leaving fans with gut-wrenching decisions about loyalty, morality, and sacrifice. The pacing is relentless, keeping you at the edge of your seat from start to finish.</p>
+            
+            <p><strong>Character Development:</strong> Eren's character has gone through a dramatic evolution since the series began. The show explores his internal struggle in a deeply complex manner, making it clear that his motivations are not simply those of a villain, but a man who believes that he is fighting for the future of his people. The other key characters, including Mikasa, Armin, and Levi, experience their own emotional journeys, each making sacrifices for the greater good. The series handles their emotional growth gracefully, making their decisions impactful.</p>
+            
+            <p><strong>Animation & Direction:</strong> Studio MAPPA’s animation has taken *Attack on Titan* to new heights. The fight scenes are impeccably choreographed, and the attention to detail in the Titan battles is nothing short of breathtaking. The dynamic action sequences are complemented by quieter, more introspective moments, with the art style effectively reflecting the tone of the narrative.</p>
+            
+            <p><strong>Soundtrack:</strong> The music, composed by Hiroyuki Sawano, remains as emotionally evocative as ever. From soaring orchestral arrangements to intense, heart-pounding tracks, the soundtrack perfectly complements the series’ high stakes and emotional depth.</p>
+            
+            <p><strong>Final Thoughts:</strong> *Attack on Titan: The Final Season* is a perfect storm of masterful storytelling, exceptional animation, and unforgettable characters. It does justice to the series' legacy, bringing everything full circle while leaving a lasting impact on viewers. Whether you’re a long-time fan or a newcomer to the series, the finale is an absolute must-watch. Just make sure you have tissues nearby—it’s an emotional rollercoaster from start to finish.</p>
+        </section>
+
+        <!-- Upcoming Releases Section -->
+        <section id="releases" class="tab-content" aria-labelledby="releases-tab">
+            <h2>Upcoming Releases</h2>
+            <div id="carousel" class="carousel"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anime Hub - <a href="references.html" aria-label="View references">References</a></p>
+    </footer>
+
+    <script src="scripts/anime.js" defer></script>
+</body>
+</html>

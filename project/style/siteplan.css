@@ -1,0 +1,51 @@
+/* Basic styling for the document */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7; /* Light gray background */
+  color: #333; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #FF6347; /* Tomato Red */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Section styling */
+.section {
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF6347; /* Tomato Red for headings */
+}
+
+/* Wireframe image container */
+.wireframe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.wireframe img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #87CEFA; /* Light Sky Blue */
+  color: white;
+}

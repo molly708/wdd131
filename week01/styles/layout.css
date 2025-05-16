@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+
+}
+
+.header {
+  background-color: rgb(60, 60, 60);
+  grid-column: 1 / 4;
+  margin-top: 5px;
+}
+
+.header h1 {
+  padding: 10px;
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.navigation ul {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.726);
+  padding: 14px;
+  justify-content: space-evenly;
+}
+
+.navigation li a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.main {
+  background-color: rgba(143, 142, 142, 0.615);
+  grid-column: 1 / 2;
+  width: 600px;
+  height: 250px;
+  padding: 13px;
+  color: #201f1fd6;
+}
+
+.aside {
+  padding: 13px;
+  color: #201f1fd6;
+}
+
+footer {
+  background-color: rgb(60, 60, 60);
+  grid-column: 1 / 4;
+  text-align: center;
+  padding-top: 10px;
+  height: 100px;
+}
+
+footer h3 {
+  color: whitesmoke;
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join discussions on anime topics and engage with the community through the Anime Hub's discussion board." />
+    <meta name="author" content="Omodunmolami Ojulari">
+    <title>Community Discussions</title>
+    <link rel="stylesheet" href="styles/anime.css">
+</head>
+<body>
+    <header>
+        <h1>Otaku Den</h1>
+        <nav>
+            <a href="anime.html" aria-label="Home">Home</a>
+            <a href="spotlight.html" aria-label="Spotlights">Spotlights</a>
+            <a href="community.html" aria-label="Community">Community</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="discussion-board" aria-labelledby="discussion-board-heading">
+            <h2 id="discussion-board-heading">Discussion Board</h2>
+            <div id="discussions"></div> <!-- Discussions section where threads will be added -->
+            
+            <form id="newThreadForm" aria-labelledby="newThreadForm-label">
+                <label for="threadTitle" id="newThreadForm-label">Create a new thread:</label>
+                <input type="text" id="threadTitle" name="title" placeholder="Thread Title" required aria-required="true">
+                <textarea id="threadContent" name="content" placeholder="Your thoughts..." required aria-required="true"></textarea>
+                <button type="submit">Create Thread</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Anime Hub - <a href="references.html" aria-label="View references">References</a></p>
+    </footer>
+
+    <script src="scripts/community.js" defer></script>
+</body>
+</html>

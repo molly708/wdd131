@@ -1,0 +1,87 @@
+@media (max-width: 767px) {
+    /* Make navigation collapsible for smaller screens */
+    nav {
+        display: none;
+        background: #3d6bbf;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        z-index: 3;
+    }
+
+    nav.show {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 12px;
+        width: 100%;
+    }
+
+    #menu-toggle {
+        display: block;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    /* Single-column layout for mobile */
+    .temple-container {
+        display: grid;
+        grid-template-columns: 1fr; /* One column */
+        gap: 10px;
+        padding: 15px;
+    }
+
+    /* Increase image size slightly for mobile */
+    .temple-card img {
+        height: 220px; /* Increased height by 20px */
+    }
+
+    /* Overlay text on images */
+    .temple-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .temple-info h3, 
+    .temple-info p {
+        margin: 5px 0;
+    }
+
+    /* Improve spacing */
+    header {
+        padding: 1rem;
+    }
+
+    footer {
+        padding: 8px;
+    }
+}
